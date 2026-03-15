@@ -1,0 +1,205 @@
+##############################
+## 1. Java / Kotlin (JVM)
+##############################
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+*.log
+*.tmp
+*.swp
+*.swo
+*.lck
+hs_err_pid*
+replay_pid*
+
+##############################
+## 2. Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+
+##############################
+## 3. Gradle
+##############################
+.gradle/
+build/
+.gradle-task-name-cache
+gradle-app.setting
+!gradle-wrapper.jar
+
+##############################
+## 4. Kotlin/JS & Node.js
+##############################
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.js.map
+*.kt.js
+*.kjsm
+dist/
+out/
+
+##############################
+## 5. Kotlin/Native
+##############################
+.konan/
+*.klib
+*.exe
+*.dll
+*.so
+*.dylib
+
+##############################
+## 6. Python
+##############################
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual env
+venv/
+ENV/
+.venv/
+env/
+.conda/
+
+# Packaging
+*.egg-info/
+.eggs/
+*.egg
+dist/
+build/
+develop-eggs/
+
+# Logs & reports
+*.log
+*.coverage
+.coverage*
+.cache
+.tox/
+nosetests.xml
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+.ipynb_checkpoints/
+*.ipynb
+
+##############################
+## 7. .NET
+##############################
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build results
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+bld/
+
+# Other generated
+*.pdb
+*.obj
+*.idb
+*.ilk
+*.log
+
+##############################
+## 8. Databases / Dumps
+##############################
+*.db
+*.sql
+*.dump
+*.h2.db
+*.mv.db
+
+##############################
+## 9. IDEs & Editors
+##############################
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.settings/
+.metadata/
+.classpath
+.project
+.factorypath
+
+nbproject/private/
+nbbuild/
+dist/
+nbactions.xml
+nb-configuration.xml
+
+.vscode/
+*.code-workspace
+
+# Other editors
+*.sublime-workspace
+*.sublime-project
+
+##############################
+## 10. OS-specific
+##############################
+.DS_Store
+Thumbs.db
+Icon?
+*.bak
+*.swp
+
+##############################
+## 11. Test artifacts
+##############################
+surefire-reports/
+failsafe-reports/
+test-output/
+allure-results/
+allure-report/
+jacoco.exec
+*.ec
+
+##############################
+## 12. WebDriverManager
+##############################
+.wdm/
+
+##############################
+## 13. Environment / secrets
+##############################
+.env
+*.env
+.env.local
+.env.*
+!.env.example
+
+##############################
+## 14. Generated code & docs
+##############################
+delombok/
+javadoc/
+docs/_build/
